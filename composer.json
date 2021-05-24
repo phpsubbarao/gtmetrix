@@ -1,0 +1,7 @@
+{
+    "require": {
+        "philcook/gtmetrix": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.17"
+
+    }
+}

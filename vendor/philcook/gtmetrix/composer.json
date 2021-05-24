@@ -1,0 +1,19 @@
+{
+	"name": "philcook/gtmetrix",
+	"description": "GTMetrix API client for PHP",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"LightningStudio\\GTMetrixClient\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.3",
+		"ext-curl": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~9.5",
+		"apigen/apigen": "~4.1",
+		"phing/phing": "~2.16"
+	}
+}
