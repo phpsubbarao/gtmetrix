@@ -34,7 +34,7 @@ $sheet->setCellValue('A'.$keys, $value);
 $sheet->setCellValue('B'.$keys, $score['pagespeedscore']);
 $sheet->setCellValue('C'.$keys, date('Y-m-d H:i:s'));
 $writer = new Xlsx($spreadsheet);
-$writer->save('trianz_gtmetrix_page_speed_'.date('Y_m_d').'.xlsx');
+$writer->save('gtmetrix_page_speed_'.date('Y_m_d').'.xlsx');
     flush();
     ob_flush();
     sleep(1);
